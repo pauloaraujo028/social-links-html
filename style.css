@@ -210,6 +210,20 @@ footer {
   }
 }
 
+@media (min-width: 375px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+
+  #skills img {
+    margin: 3px;
+  }
+}
+
 /* animation */
 @keyframes slide-in {
   from {
