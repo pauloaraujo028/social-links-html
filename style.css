@@ -156,7 +156,7 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 
-/* social links */
+/* social links
 #social-links {
   display: flex;
   justify-content: center;
@@ -178,7 +178,7 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
-}
+} */
 
 footer {
   padding: 24px 0;
@@ -187,13 +187,26 @@ footer {
 }
 
 /* media queries */
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
 
   .light {
     --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+}
+@media (min-width: 425px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+
+  #skills img {
+    margin: 0 5px;
   }
 }
 
