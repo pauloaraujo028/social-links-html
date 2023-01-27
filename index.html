@@ -26,23 +26,46 @@
       </div>
 
       <div id="skills">
-        <img src="assets/skill/react.png" alt="Icone do tecnologia ReactJs" />
         <img
+          title="React"
+          src="assets/skill/react.png"
+          alt="Icone do tecnologia ReactJs"
+        />
+        <img
+          title="Javascript"
           src="assets/skill/javascript.png"
           alt="Icone do tecnologia Javascript"
         />
-        <img src="assets/skill/nextjs.png" alt="Icone do tecnologia NextJs" />
-        <img src="assets/skill/html.png" alt="Icone do tecnologia HTML5" />
-        <img src="assets/skill/css.png" alt="Icone do tecnologia CSS3" />
         <img
+          title="NextJs"
+          src="assets/skill/nextjs.png"
+          alt="Icone do tecnologia NextJs"
+        />
+        <img
+          title="HTML5"
+          src="assets/skill/html.png"
+          alt="Icone do tecnologia HTML5"
+        />
+        <img
+          title="CSS3"
+          src="assets/skill/css.png"
+          alt="Icone do tecnologia CSS3"
+        />
+        <img
+          title="Typescript"
           src="assets/skill/typescript.png"
           alt="Icone do tecnologia Typescript"
         />
         <img
+          title="Tailwind"
           src="assets/skill/tailwind.png"
           alt="Icone do tecnologia Tailwind"
         />
-        <img src="assets/skill/nodejs.png" alt="Icone do tecnologia Nodejs" />
+        <img
+          title="Nodejs"
+          src="assets/skill/nodejs.png"
+          alt="Icone do tecnologia Nodejs"
+        />
       </div>
 
       <div id="switch" onclick="toggleMode()">
@@ -123,8 +146,9 @@
           <ion-icon name="logo-linkedin"></ion-icon>
         </a>
       </div> -->
-
-      <footer>Feito por Paulo Araújo Dev.</footer>
+      <div class="footer">
+        <p>© 2023 Paulo Araújo. Todos os direitos reservados.</p>
+      </div>
     </div>
 
     <script
@@ -135,6 +159,9 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script>
+      const year = new Date().getFullYear();
+    </script>
 
     <script src="js/script.js"></script>
   </body>
